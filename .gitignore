@@ -2,3 +2,5 @@
 node_modules
 *.pyc
 __pycache__
+vendor
+php/tests
