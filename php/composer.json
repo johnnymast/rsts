@@ -1,0 +1,24 @@
+{
+    "name": "rsts/php",
+    "description": "RiveScript Test Suite for Php.",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "symfony/console": "5.4.x-dev",
+        "symfony/yaml": "5.4.x-dev",
+        "axiom/rivescript": "@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johnny Mast",
+            "email": "mastjohnny@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
